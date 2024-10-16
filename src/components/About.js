@@ -1,4 +1,4 @@
-import AboutImg from '../assets/about.jpeg';
+import AboutImg from '../assets/about.svg';
 export default function About() {
     const config = {
         line1:'I am a computer science Engineer, who enjoys learning and scraping new stuff. I started coding when I was in college second year doing very basic stuff, like building static website with html.',

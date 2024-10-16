@@ -4,10 +4,11 @@ const projects = [
   {
     id: nanoid(),
     title: 'Chatbot',
-    img: '/imgs/projects/chatbot.jpeg',
+    img: '/imgs/projects/chatbot.PNG',
     desc: 'The GYM Chatbot web appilication using NLP ',
     technologies: ['Python', 'Flask', 'Mysql', 'Tensorflow'],
     github: 'https://github.com/vasanthselva/projects/tree/main/gym%20chatbot',
+    live: 'https://github.com/vasanthselva/projects/tree/main/gym%20chatbot',
   },
   {
     id: nanoid(),
@@ -16,6 +17,7 @@ const projects = [
     desc: 'Sign language Recognition using python',
     technologies: ['Python', 'Cv2', 'LSTM Model', 'Tensorflow'],
     github: 'https://github.com/vasanthselva/projects/tree/main/BATCH-5%20SIGN%20LANGUAGE%20DETECTION',
+    live: 'https://github.com/vasanthselva/projects/tree/main/BATCH-5%20SIGN%20LANGUAGE%20DETECTION',
   },
   {
     id: nanoid(),

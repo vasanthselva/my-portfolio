@@ -14,7 +14,7 @@ export default function Education() {
             <h1 className='text-4xl  border-b-4 border-[#ddaf69] mb-5 w-[174px] font-bold'>Education</h1>
             <p className='pb-5 font-home-font'>{config.line1}<br/>
             {config.line2}</p>
-            <h1 className='text-3x2 text-[#0b192e] mb-5 w-[75px] font-bold'>Batch</h1>
+            <h3 className='text-1x2 mb-5 w-[35px] font-bold'>Batch</h3>
             <p className='pb-5 font-home-font'>2020-2024</p>
             </div>
             </div>

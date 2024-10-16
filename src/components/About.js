@@ -8,7 +8,7 @@ export default function About() {
     return(
         <section className='flex flex-col md:flex-row  px-5 py-5'id='about'>
             <div className='md:w-1/2 flex justify-center'>
-                <img src={AboutImg}/>
+                <Image src='./imgs/about.svg' alt='' />
             </div>
             <div className='md:w-1/2 flex justify-center bg-text'>
             <div className='md:w-1/2 flex flex-col justify-center bg-'>

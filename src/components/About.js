@@ -1,3 +1,4 @@
+import AboutImg from '../assets/about.svg';
 export default function About() {
     const config = {
         line1:'I am a computer science Engineer, who enjoys learning and scraping new stuff. I started coding when I was in college second year doing very basic stuff, like building static website with html.',
@@ -7,7 +8,7 @@ export default function About() {
     return(
         <section className='flex flex-col md:flex-row  px-5 py-5'id='about'>
             <div className='md:w-1/2 flex justify-center'>
-                <Image src='./imgs/about.svg' alt='' />
+                <img className='w-[300px]' src={AboutImg}/>
             </div>
             <div className='md:w-1/2 flex justify-center bg-text'>
             <div className='md:w-1/2 flex flex-col justify-center bg-'>

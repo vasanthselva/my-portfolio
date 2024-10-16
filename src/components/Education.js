@@ -1,4 +1,4 @@
-import EducationImg from '../assets/education.jpeg';
+import EducationImg from '../assets/education.svg';
 export default function Education() {
     const config = {
         line1:'BE, Computer Science and Engineering-7.5 CGPA',

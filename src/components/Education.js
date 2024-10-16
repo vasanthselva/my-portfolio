@@ -7,7 +7,7 @@ export default function Education() {
     return(
         <section className='flex flex-col md:flex-row  px-5 py-5 justify-items-center' id='education'>
             <div className='md:w-1/2 flex justify-center'>
-            <img className='w-[300px]' src={EducationImg} alt="Resume" />
+            <img className='w-[200px]' src={EducationImg} alt="Resume" />
             </div>
             <div className='md:w-1/2 flex justify-center bg-text'>
             <div className='md:w-1/2 flex flex-col justify-center bg-'>

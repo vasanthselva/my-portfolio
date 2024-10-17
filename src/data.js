@@ -40,7 +40,7 @@ const projects = [
   {
     id: nanoid(),
     title: 'Proquiz',
-    img: '/imgs/projects/Proquiz.PNG',
+    img: '/imgs/projects/proquiz.PNG',
     desc: 'An interactive quiz application to test your knowledge of programming languages.',
     technologies: ['React.js', 'TypeScript', 'MantineUI'],
     github: 'https://github.com/vasanthselva/Proquiz',

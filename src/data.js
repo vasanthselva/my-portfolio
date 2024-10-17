@@ -37,6 +37,15 @@ const projects = [
     github: 'https://github.com/vasanthselva/react-portfolio',
     live: 'https://vasanthselva-portfolio.vercel.app/',
   },
+  {
+    id: nanoid(),
+    title: 'Proquiz',
+    img: '/imgs/projects/Proquiz.webp',
+    desc: 'An interactive quiz application to test your knowledge of programming languages.',
+    technologies: ['React.js', 'TypeScript', 'MantineUI'],
+    github: 'https://github.com/DineshRout779/codwiz',
+    live: 'https://proquiz.vercel.app/',
+  },
 
 
 ];

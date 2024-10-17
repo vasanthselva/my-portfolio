@@ -46,7 +46,7 @@ export default function Contact() {
                 <img className='w-[250px] pb-5' src={ContactImg} alt="Contact" />
             </div>
             <div className='md:w-1/2 flex flex-col justify-center'>
-                <h1 className='text-4xl text-[#2c2a2a] border-b-4 border-[#4169d8] mb-5 w-[135px] font-bold'>Contact</h1>
+                <h1 className='text-4xl border-b-4 border-[#4169d8] mb-5 w-[135px] font-bold'>Contact</h1>
                 <form onSubmit={sendGmail} className="flex flex-col space-y-4">
                     <input 
                         type="text" 

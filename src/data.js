@@ -46,7 +46,15 @@ const projects = [
     github: 'https://github.com/vasanthselva/Proquiz',
     live: 'https://proquiz.vercel.app/',
   },
-
+  {
+    id: nanoid(),
+    title: 'Notes',
+    img: '/imgs/projects/notes.PNG',
+    desc: 'write Notes like a important messages.',
+    technologies: ['React.js', 'TypeScript',],
+    github: 'https://github.com/vasanthselva/Notes',
+    live: 'https://notes-friendly.vercel.app/',
+  },
 
 ];
 

@@ -52,7 +52,7 @@ const projects = [
     img: '/imgs/projects/notes.PNG',
     desc: 'write Notes like a important messages available both app and web.',
     technologies: ['React.js', 'TypeScript', 'React Native', 'Expo'],
-    github: 'https://github.com/vasanthselva/Notes-apk',
+    github: 'https://drive.google.com/drive/folders/164Z-7JIdNuQqGzTzAf21NJ7AmzSA2O0K',
     live: 'https://notes-friendly.vercel.app/',
   },
 

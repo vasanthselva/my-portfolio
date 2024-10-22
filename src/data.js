@@ -52,7 +52,7 @@ const projects = [
     img: '/imgs/projects/notes.PNG',
     desc: 'write Notes like a important messages.',
     technologies: ['React.js', 'TypeScript',],
-    github: 'https://github.com/vasanthselva/Notes',
+    github: 'https://github.com/vasanthselva/Notes-apk',
     live: 'https://notes-friendly.vercel.app/',
   },
 

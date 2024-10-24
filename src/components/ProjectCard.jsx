@@ -19,7 +19,6 @@ const ProjectCard = ({ project }) => {
           )}
           <CardLink
             href={project.live}
-            primary
             target='_blank'
             rel='noreferrer'
           >

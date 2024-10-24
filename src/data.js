@@ -17,7 +17,7 @@ const projects = [
     desc: 'Sign language Recognition using python',
     technologies: ['Python', 'Cv2', 'LSTM Model', 'Tensorflow'],
     github: 'https://github.com/vasanthselva/projects/tree/main/BATCH-5%20SIGN%20LANGUAGE%20DETECTION',
-    live: 'https://github.com/vasanthselva/projects/tree/main/BATCH-5%20SIGN%20LANGUAGE%20DETECTION',
+    live: null,
   },
   {
     id: nanoid(),

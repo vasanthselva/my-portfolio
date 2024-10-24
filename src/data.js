@@ -8,7 +8,6 @@ const projects = [
     desc: 'The GYM Chatbot web appilication using NLP ',
     technologies: ['Python', 'Flask', 'Mysql', 'Tensorflow'],
     github: null,
-    live: 'https://github.com/vasanthselva/projects/tree/main/gym%20chatbot',
   },
   {
     id: nanoid(),

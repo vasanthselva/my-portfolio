@@ -7,8 +7,8 @@ const projects = [
     img: '/imgs/projects/chatbot.PNG',
     desc: 'The GYM Chatbot web appilication using NLP ',
     technologies: ['Python', 'Flask', 'Mysql', 'Tensorflow'],
-    live: 'https://github.com/vasanthselva/projects/tree/main/gym%20chatbot',
-    github: null,
+    live: null,
+    github: 'https://github.com/vasanthselva/projects/tree/main/gym%20chatbot',
     
   },
   {

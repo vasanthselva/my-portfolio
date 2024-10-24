@@ -31,7 +31,7 @@ const Skills = ({ skills }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <SectionTitle className='text-4xl  border-b-4 border-[#ddaf69] mb-5 w-[98px] font-bold'>Skills</SectionTitle>
+        <SectionTitle className='text-4xl  border-b-4 border-[#ddaf69] mb-5 w-[98px] font-bold'id='skills'>Skills</SectionTitle>
       </motion.div>
       <motion.section variants={container} initial='hidden' animate='visible'>
         <SkillsWrapper>

@@ -19,14 +19,12 @@ const ProjectCard = ({ project }) => {
           )}
           <CardLink
             href={project.live}
-            primary 
+            primary
             target='_blank'
             rel='noreferrer'
           >
-        
             Live <HiOutlineExternalLink />
-          
-          </CardLinks>
+          </CardLink>
         </CardLinks>
       </CardInfo>
     </Card>

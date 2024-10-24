@@ -29,7 +29,6 @@ const ProjectCard = ({ project }) => {
           
             </CardLinks>
             )}
-          </CardLink>
         </CardLinks>
       </CardInfo>
     </Card>

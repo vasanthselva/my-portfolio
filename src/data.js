@@ -92,8 +92,8 @@ const skills = [
     title: 'Node.js',
   },
   {
-    icon: 'expressjs',
-    title: 'Express.js',
+    icon: 'react',
+    title: 'React-native',
   },
   {
     icon: 'mongodb',

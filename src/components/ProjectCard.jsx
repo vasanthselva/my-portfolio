@@ -17,6 +17,7 @@ const ProjectCard = ({ project }) => {
               Source <FaGithub />
             </CardLink>
           )}
+          {project.live && (
           <CardLink
             href={project.live}
             primary
@@ -24,7 +25,7 @@ const ProjectCard = ({ project }) => {
             rel='noreferrer'
           >
             Live <HiOutlineExternalLink />
-          </CardLink>
+          </CardLink>)}
         </CardLinks>
       </CardInfo>
     </Card>

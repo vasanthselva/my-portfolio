@@ -17,11 +17,15 @@ const ProjectCard = ({ project }) => {
               Source <FaGithub />
             </CardLink>
           )}
+          <CardLinks>
+          {project.live && (
           <CardLink
             href={project.live}
+            primary 
             target='_blank'
             rel='noreferrer'
-          >
+          >)}
+          </CardLinks>
             Live <HiOutlineExternalLink />
           </CardLink>
         </CardLinks>

@@ -8,7 +8,7 @@ const Education = () => {
       institution: "Chendhuran College of Engineering and Technology",
       degree: "Bachelor of Engineering",
       date: "2020-2024",
-      description: ", Computer Science and Engineering-7.5 CGPA"
+      description: " Computer Science and Engineering-7.5 CGPA"
     }
   ];
 

@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Container } from '../styles/globalStyles';
 
@@ -20,8 +21,35 @@ const contactIcons = [
 ];
 
 const Freelance = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <Container>
+    {showButton && (
+        <ScrollButton onClick={scrollToTop}>
+        <span style={styles.arrow}>▲</span>
+        </ScrollButton>
+      )}
       <Wrapper>
         <TextWrapper>
           <Heading>Looking for a Freelance Front-End Developer ?</Heading>
@@ -29,7 +57,6 @@ const Freelance = () => {
             I'm a Front-End Developer eager to tackle freelance projects. Let's
             collaborate on something awesome! 🚀
           </Text>
-
           <IconsWrapper>
             {contactIcons.map((icon, i) => (
               <IconLink href={icon.linkTo} key={i}>
@@ -38,11 +65,13 @@ const Freelance = () => {
             ))}
           </IconsWrapper>
         </TextWrapper>
-        <Image src='./imgs/freelance.svg' alt='' />
+        <Image src="./imgs/freelance.svg" alt="" />
       </Wrapper>
-    <div className="py-4  text-center text-black">&copy; Vasanth S {new Date().getFullYear()} All rights reserved.</div>
+      <Footer>
+        <div>&copy; Vasanth S {new Date().getFullYear()} All rights reserved.</div>
+      </Footer>
     </Container>
-);
+  );
 };
 
 const Wrapper = styled.div`
@@ -107,5 +136,45 @@ const Image = styled.img`
   margin: 0 auto;
 `;
 
-export default Freelance;
+const Footer = styled.div`
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9em;
+  color: #333;
+`;
+const styles = {
+  arrow: {
+    color: '#fff',
+    fontSize: '18px'
+  }
+}
 
+const ScrollButton = styled.button`
+  
+  position: relative; 
+  bottom: 2em;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #444;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+
+
+  &:hover {
+    transform: translateX(-50%) scale(1.1);
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+`;
+
+export default Freelance;

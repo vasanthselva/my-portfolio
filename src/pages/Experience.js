@@ -26,7 +26,7 @@ const Work = () => {
       company: "Self projects",
       position: "projects",
       date: "Till date",
-      description: "I have done two portfolio web sites and chatbot web application in  web development. started with basic html, css, javascript, tailwindcss and react js like a javascript libraries and frameworks. For a chatbot i used python flask framework and libraries (NLtk, Tensorflow, pickle) for a data preparation creates a bag of words representation for the trainning data"
+      description: "I have done two portfolio web sites and chatbot web application in  web development. started with basic html, css, javascript, tailwindcss and react js like a javascript libraries and frameworks. For a chatbot i used python flask framework and libraries (Nltk, Tensorflow, pickle) for a data preparation creates a bag of words representation for the trainning data"
     }
   ];
 

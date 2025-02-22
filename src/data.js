@@ -22,21 +22,21 @@ const projects = [
   },
   {
     id: nanoid(),
+    title: 'Notes',
+    img: '/imgs/projects/notes.PNG',
+    desc: 'write Notes like a important messages available both app and web.',
+    technologies: ['React.js', 'TypeScript', 'React Native', 'Expo'],
+    Downlord: 'https://drive.google.com/drive/folders/1JKxJ7KZlGBwIqufDQKi0ECDjg0UhUPoo',
+    live: 'https://notes-friendly.vercel.app/',
+  },
+  {
+    id: nanoid(),
     title: 'Student Portfolio',
     img: '/imgs/projects/old portfolio.PNG',
     desc: "Using Html, Css, javascript for a static web designing",
     technologies: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/vasanthselva/portfolio',
     live: 'https://vasanthselvaportfolio.netlify.app/',
-  },
-  {
-    id: nanoid(),
-    title: 'Portfolio',
-    img: '/imgs/projects/new portfolio.PNG',
-    desc: 'Using a React library for workview and Freelanching works Portfolio.',
-    technologies: ['React.js', 'JavaScript', 'TailwindCSS'],
-    github: 'https://github.com/vasanthselva/react-portfolio',
-    live: 'https://vasanthselva-portfolio.vercel.app/',
   },
   {
     id: nanoid(),
@@ -49,12 +49,11 @@ const projects = [
   },
   {
     id: nanoid(),
-    title: 'Notes',
-    img: '/imgs/projects/notes.PNG',
-    desc: 'write Notes like a important messages available both app and web.',
-    technologies: ['React.js', 'TypeScript', 'React Native', 'Expo'],
-    github: 'https://drive.google.com/drive/folders/164Z-7JIdNuQqGzTzAf21NJ7AmzSA2O0K',
-    live: 'https://notes-friendly.vercel.app/',
+    title: 'Portfolio',
+    img: '/imgs/projects/new portfolio.PNG',
+    desc: 'Using a React library for workview and Freelanching works Portfolio.',
+    technologies: ['React.js', 'JavaScript', 'TailwindCSS'],
+    live: 'https://vasanthselva-portfolio.vercel.app/',
   },
 
 ];

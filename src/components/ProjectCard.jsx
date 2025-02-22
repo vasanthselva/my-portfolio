@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { NormalLink } from '../styles/globalStyles';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { FaGithub } from 'react-icons/fa';
+import { FaDownload } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -15,6 +16,11 @@ const ProjectCard = ({ project }) => {
           {project.github && (
             <CardLink href={project.github} target='_blank' rel='noreferrer'>
               Source <FaGithub />
+            </CardLink>
+          )}
+          {project.Downlord && (
+            <CardLink href={project.Downlord} target='_blank' rel='noreferrer'>
+              Downlord <FaDownload />
             </CardLink>
           )}
           {project.live && (

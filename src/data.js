@@ -88,10 +88,6 @@ const skills = [
     title: 'Bootstrap',
   },
   {
-    icon: 'nodejs',
-    title: 'Node.js',
-  },
-  {
     icon: 'react',
     title: 'React-native',
   },
@@ -108,28 +104,8 @@ const skills = [
     title: 'Python',
   },
   {
-    icon: 'django',
-    title: 'Django',
-  },
-  {
     icon: 'flask',
     title: 'Flask',
-  },
-  {
-    icon: 'github',
-    title: 'Github',
-  },
-  {
-    icon: 'git',
-    title: 'Git',
-  },
-  {
-    icon: 'vs-code',
-    title: 'Vs code',
-  },
-  {
-    icon: 'jupyter',
-    title: 'Jupyter',
   },
 ];
 

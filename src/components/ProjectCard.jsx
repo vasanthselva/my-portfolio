@@ -3,7 +3,7 @@ import { NormalLink } from '../styles/globalStyles';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { FaGithub } from 'react-icons/fa';
 import { FaDownload } from "react-icons/fa";
-
+import { FaShoppingCart } from  "react-icons/fa";
 const ProjectCard = ({ project }) => {
   return (
     <Card className='card'>
@@ -21,6 +21,11 @@ const ProjectCard = ({ project }) => {
           {project.Downlord && (
             <CardLink href={project.Downlord} target='_blank' rel='noreferrer'>
               Downlord <FaDownload />
+            </CardLink>
+          )}
+            {project.Buy && (
+            <CardLink href={project.Buy} target='_blank' rel='noreferrer'>
+              Buy <FaShoppingCart />
             </CardLink>
           )}
           {project.live && (

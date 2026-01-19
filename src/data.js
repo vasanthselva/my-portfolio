@@ -100,6 +100,10 @@ const skills = [
     icon: 'react',
     title: 'React-native',
   },
+    {
+    icon: 'Expo',
+    title: 'Expo',
+  },
   {
     icon: 'mongodb',
     title: 'MongoDB',
@@ -115,6 +119,10 @@ const skills = [
   {
     icon: 'flask',
     title: 'Flask',
+  },
+ {
+    icon: 'git',
+    title: 'Git',
   },
 ];
 

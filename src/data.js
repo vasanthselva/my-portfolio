@@ -101,7 +101,7 @@ const skills = [
     title: 'React-native',
   },
     {
-    icon: 'Expo',
+    icon: 'expo',
     title: 'Expo',
   },
   {
@@ -120,9 +120,9 @@ const skills = [
     icon: 'flask',
     title: 'Flask',
   },
- {
-    icon: 'git',
-    title: 'Git',
+{
+    icon: 'github',
+    title: 'Github',
   },
 ];
 

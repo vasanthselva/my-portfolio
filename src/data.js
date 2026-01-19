@@ -3,6 +3,15 @@ import { nanoid } from 'nanoid';
 const projects = [
   {
     id: nanoid(),
+    title: 'T-store financial',
+    img: '/imgs/projects/tstore.png',
+    desc: 'Financial maintainence app(key features - customer loan, purchase bill entry and billing)easy to maintain shop and digitalize the data.',
+    technologies: ['React native', 'TypeScript', 'Expo'],
+   Buy: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cssvasanth@gmail.com',
+
+   },
+  {
+    id: nanoid(),
     title: 'Chatbot',
     img: '/imgs/projects/chatbot.PNG',
     desc: 'The GYM Chatbot web appilication using NLP ',

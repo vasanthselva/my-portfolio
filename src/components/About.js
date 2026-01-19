@@ -8,7 +8,11 @@ const About = () => {
     return(
         <section className='flex flex-col md:flex-row  px-5 py-5'id='about'>
             <div className='md:w-1/2 flex justify-center'>
-                <img className='w-[200px]' src={AboutImg}/>
+                  <img
+  src={AboutImg}
+  alt="About illustration"
+  className="w-[200px]"
+/>
             </div>
             <div className='md:w-1/2 flex justify-center bg-text'>
             <div className='md:w-1/2 flex flex-col justify-center bg-'>

@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 const projects = [
   {
     id: nanoid(),
-    title: 'T-store financial',
+    title: 'Due book',
     img: '/imgs/projects/tstore.png',
     desc: 'Financial maintainence app(key features - customer loan, purchase bill entry and billing)easy to maintain shop and digitalize the data.',
     technologies: ['React native', 'TypeScript', 'Expo'],

@@ -104,11 +104,7 @@ const skills = [
     icon: 'expo',
     title: 'Expo',
   },
-  {
-    icon: 'mongodb',
-    title: 'MongoDB',
-  },
-  {
+   {
     icon: 'mysql',
     title: 'MySql',
   },

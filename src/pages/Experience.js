@@ -8,7 +8,7 @@ const Work = () => {
       company: "Orbit solar India Pvt Ltd",
       position: "System admin",
       date: "June 2024 - Jan 2026",
-      description: "• Managed system administration tasks including server maintenance, user access control, and network support. • Prepared and maintained expense reports, ensuring accurate financial tracking and documentation. • Monitored solar cloud platforms, performed troubleshooting, and resolved technical issues to ensure uninterrupted system performance."
+      description: At Orbit Solar Company, I manage system administration and oversee daily IT operations to ensure smooth and secure performance. I monitor solar cloud platforms, analyze system data, and troubleshoot technical issues to maintain uninterrupted service. Additionally, I handle expense reporting and operational documentation, supporting efficient business processes and informed decision-making."
     },
     {
       company: "DLK Career Development",

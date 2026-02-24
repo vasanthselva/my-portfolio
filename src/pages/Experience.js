@@ -5,10 +5,10 @@ import React from 'react';
 const Work = () => {
   const workData = [
     {
-      company: "Lucas TVS, Chennai",
-      position: "In plant trainee",
-      date: "Feb 2024 - May 2024",
-      description: "Acquired practical knowledge in operating manufacturing machinery and utilizing quality control tools. Gained familiarity with industry software used for monitoring production metrics and managing quality data."
+      company: "Orbit solar India Pvt Ltd",
+      position: "System admin",
+      date: "June 2024 - Jan 2026",
+      description: "• Managed system administration tasks including server maintenance, user access control, and network support. • Prepared and maintained expense reports, ensuring accurate financial tracking and documentation. • Monitored solar cloud platforms, performed troubleshooting, and resolved technical issues to ensure uninterrupted system performance."
     },
     {
       company: "DLK Career Development",

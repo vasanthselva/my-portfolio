@@ -10,6 +10,11 @@ const Work = () => {
       date: "June 2024 - Jan 2026",
       description: "Data Management, Data Cleaning & Record Maintenance in quotation and other company documents.Managed system administration tasks including server maintenance, user access control, and network support.Monitored solar cloud platforms, performed troubleshooting, and resolved technical issues to ensure uninterrupted system performance", },
     {
+      company: "Orbit solar India Pvt Ltd",
+      position: "System admin",
+      date: "June 2024 - Jan 2026",
+      description:"Assisted in the assembly of alternator components under the guidance of senior technicians. Learned manufacturing processes, quality control procedures, and workplace safety standards. Supported inspection, testing, and packaging of finished alternator units before dispatch. Gained practical experience in production line operations, equipment handling, and team-based manufacturing activities.",},
+    {
       company: "DLK Career Development",
       position: "Industrial visit",
       date: "July 2023",

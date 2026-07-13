@@ -14,7 +14,7 @@ const projects = [
     id: nanoid(),
     title: 'Abarna fancy',
     img: '/imgs/projects/Abarna fancy.jpg',
-    desc: 'Fancy store website for view products they sell(Stationery, covering jwellery, beauty products & others fancy).',
+    desc: 'Explore our wide range of products, including stationery, covering jewellery, beauty products, gift items, and other fancy accessories.).',
     technologies: ['Next js', 'JavaScript',],
    live: 'https://abarna-fancy-theta.vercel.app/',
 

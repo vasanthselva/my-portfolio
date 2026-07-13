@@ -8,11 +8,7 @@ const Work = () => {
       company: "Orbit solar India Pvt Ltd",
       position: "System admin",
       date: "June 2024 - Jan 2026",
-      description: "Data Management, Data Cleaning & Record Maintenance in quotation and other company documents.
-• Managed system administration tasks including server maintenance, user access 
-control, and network support.
-• Monitored solar cloud platforms, performed troubleshooting, and resolved 
-technical issues to ensure uninterrupted system performance", },
+      description: "Data Management, Data Cleaning & Record Maintenance in quotation and other company documents.Managed system administration tasks including server maintenance, user access control, and network support.Monitored solar cloud platforms, performed troubleshooting, and resolved technical issues to ensure uninterrupted system performance", },
     {
       company: "DLK Career Development",
       position: "Industrial visit",

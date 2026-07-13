@@ -10,6 +10,15 @@ const projects = [
    Buy: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cssvasanth@gmail.com',
 
    },
+    {
+    id: nanoid(),
+    title: 'Abarna fancy',
+    img: '/imgs/projects/tstore.png',
+    desc: 'Fancy store website for view products they sell(Stationery, covering jwellery, beauty products & others fancy).',
+    technologies: ['Next js', 'JavaScript',],
+   live: 'https://abarna-fancy-theta.vercel.app/',
+
+   },
   {
     id: nanoid(),
     title: 'Chatbot',

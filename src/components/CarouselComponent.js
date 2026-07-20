@@ -44,7 +44,7 @@ const CarouselComponent = () => {
       <Slider {...settings}>
         <div className="wanted-poster">
           {/* WANTED TITLE */}
-          <a href='#projects' className="wanted-title">Wanted/a>
+          <a href='#projects' className="wanted-title">Wanted</a>
 
           {/* CHARACTER IMAGE */}
           <img

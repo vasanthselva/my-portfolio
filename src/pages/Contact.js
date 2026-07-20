@@ -23,7 +23,7 @@ export default function Contact() {
             'service_nspdntn', 
             'template_5jpka3b', 
             formData,
-            'Fg-AiSzboUhkxUXWy'  
+            'tu944T-klWerga_QU'  
         ).then((result) => {
             console.log('mail sent successfully:', result.text);
             alert('Message Sent!');

@@ -20,7 +20,7 @@ export default function Contact() {
         e.preventDefault();
 
         emailjs.send(
-            'service_f4z3db1', 
+            'service_7u7ylfc', 
             'template_cij5bbc', 
             formData,
             'Fg-AiSzboUhkxUXWy'  

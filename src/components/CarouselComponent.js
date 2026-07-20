@@ -44,7 +44,7 @@ const CarouselComponent = () => {
       <Slider {...settings}>
         <div className="wanted-poster">
           {/* WANTED TITLE */}
-          <a href='#projects' className="wanted-title">Work view</a>
+          <a href='#projects' className="wanted-title">Wanted/a>
 
           {/* CHARACTER IMAGE */}
           <img
@@ -72,7 +72,7 @@ const CarouselComponent = () => {
         </div>
         <div className="wanted-poster">
           {/* WANTED TITLE */}
-          <a href='#education' className="wanted-title">Wanted</a>
+          <a href='#education' className="wanted-title">Work view</a>
 
           {/* CHARACTER IMAGE */}
           <img

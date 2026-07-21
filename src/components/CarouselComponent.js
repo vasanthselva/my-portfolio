@@ -44,7 +44,7 @@ const CarouselComponent = () => {
       <Slider {...settings}>
         <div className='wanted-poster'>
           {/* WANTED TITLE */}
-          <p className='wanted-title'>Wanted</p>
+          <p className='wanted-title'>Profile</p>
 
           {/* CHARACTER IMAGE */}
           <img
@@ -61,7 +61,7 @@ const CarouselComponent = () => {
 
           {/* HIRE ME BUTTON */}
           <HighlightedLink href="mailto:cssvasanth@gmail.com" className="hire-me-button">
-            <p className="hire-text">Hire Me</p>
+            <p className="hire-text">Hire me</p>
             </HighlightedLink>
 
           {/* SOFTWARE DEVELOPER ROLE */}
@@ -120,8 +120,8 @@ const CarouselComponent = () => {
           <p className="poster-bounty">$ flexible</p>
 
           {/* HIRE ME BUTTON */}
-          <HighlightedLink href="#skills" className="hire-me-button rounded-lg">
-            <p className="hire-text">Skills</p>
+          <HighlightedLink href="#contact" className="hire-me-button rounded-lg">
+            <p className="hire-text">Message</p>
           </HighlightedLink >
 
           {/* SOFTWARE DEVELOPER ROLE */}

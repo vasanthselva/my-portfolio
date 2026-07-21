@@ -42,9 +42,9 @@ const CarouselComponent = () => {
   return (
     <div className='slick-slider  slick-list slick-track'id='#carouselComponent'>
       <Slider {...settings}>
-        <div className="wanted-poster">
+        <div className='wanted-poster'>
           {/* WANTED TITLE */}
-          <a href='#projects' className="wanted-title">Wanted</a>
+          <a href='#projects' className='wanted-title'>Wanted</a>
 
           {/* CHARACTER IMAGE */}
           <img
@@ -70,9 +70,9 @@ const CarouselComponent = () => {
           {/* MARINE CODE */}
           <p className="poster-code pb-3">Frontend and Backend</p>
         </div>
-        <div className="wanted-poster">
+        <div className='wanted-poster'>
           {/* WANTED TITLE */}
-          <a href='#education' className="wanted-title">Work view</a>
+          <a href='#education' className='wanted-title'>Work view</a>
 
           {/* CHARACTER IMAGE */}
           <img
@@ -102,9 +102,9 @@ const CarouselComponent = () => {
           {/* MARINE CODE */}
           <p className="poster-code pb-3">Frontend and Backend</p>
         </div>
-        <div className="wanted-poster">
+        <div className='wanted-poster'>
           {/* WANTED TITLE */}
-          <a href='#contact' className="wanted-title">contact</a>
+          <a href='#contact' className='wanted-title'>contact</a>
 
           {/* CHARACTER IMAGE */}
           <img

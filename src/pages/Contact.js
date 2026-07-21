@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
             <div className='md:w-1/2 flex flex-col justify-center'>
                 <h1 className='text-4xl border-b-4 border-[#4169d8] mb-5 w-[135px] font-bold'>Contact</h1>
-                <form onSubmit={sendGmail} className="flex flex-col space-y-4">
+                <form onSubmit={sendemail} className="flex flex-col space-y-4">
                     <input 
                         type="text" 
                         name="name" 

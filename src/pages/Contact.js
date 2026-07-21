@@ -5,7 +5,7 @@ import ContactImg from '../assets/contact.webp';
 export default function Contact() {
     const [formData, setFormData] = useState({
         name: '',
-        gmail: '',
+        email: '',
         message: ''
     });
 
@@ -16,7 +16,7 @@ export default function Contact() {
         });
     };
 
-    const sendGmail = (e) => {
+    const sendemail = (e) => {
         e.preventDefault();
 
         emailjs.send(
@@ -35,7 +35,7 @@ export default function Contact() {
         // Clear form fields after submission
         setFormData({
             name: '',
-            Gmail: '',
+            email: '',
             message: ''
         });
     };
@@ -57,10 +57,10 @@ export default function Contact() {
                         className="p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary" 
                     />
                     <input 
-                        type="gmail" 
-                        name="gmail"
-                        placeholder="Gmail" 
-                        value={formData.gmail}
+                        type="email" 
+                        name="email"
+                        placeholder="gmail" 
+                        value={formData.email}
                         onChange={handleChange}
                         className="p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary" 
                     />
